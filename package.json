@@ -1,0 +1,33 @@
+{
+  "name": "JihoonHomeService",
+  "version": "1.0.0",
+  "description": "Simple authentication system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jihoon Kwon",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "dateformat": "^1.0.12",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-myconnection": "^1.0.4",
+    "express-session": "*",
+    "express-validator": "*",
+    "mathjs": "^3.5.3",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "^1.7.0",
+    "mysql": "^2.11.1",
+    "node-schedule": "^1.1.1",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
